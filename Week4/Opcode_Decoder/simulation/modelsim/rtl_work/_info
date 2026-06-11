@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/SoC/Week4/Opcode_Decoder/simulation/modelsim
+vOpcode_Decoder
+!s110 1781205036
+!i10b 1
+!s100 lBHnb9gLLDzfBN1PZ_Jij1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IzI]2MnF8fMb1^HDF@^L_90
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1781200105
+8E:/SoC/Week4/Opcode_Decoder/Opcode_Decoder.v
+FE:/SoC/Week4/Opcode_Decoder/Opcode_Decoder.v
+!i122 0
+L0 1 105
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1781205036.000000
+!s107 E:/SoC/Week4/Opcode_Decoder/Opcode_Decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/SoC/Week4/Opcode_Decoder|E:/SoC/Week4/Opcode_Decoder/Opcode_Decoder.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+E:/SoC/Week4/Opcode_Decoder
+Z6 tCvgOpt 0
+n@opcode_@decoder
+vtb_Opcode_Decoder
+!s110 1781205037
+!i10b 1
+!s100 ZjiKB4R?i`VONR;FP;BJc2
+R1
+INLDQUk^8JAHXd9WJHV18j3
+R2
+R0
+w1781204946
+8E:/SoC/Week4/Opcode_Decoder/tb_Opcode_Decoder.v
+FE:/SoC/Week4/Opcode_Decoder/tb_Opcode_Decoder.v
+!i122 1
+L0 1 334
+R3
+r1
+!s85 0
+31
+!s108 1781205037.000000
+!s107 E:/SoC/Week4/Opcode_Decoder/tb_Opcode_Decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/SoC/Week4/Opcode_Decoder|E:/SoC/Week4/Opcode_Decoder/tb_Opcode_Decoder.v|
+!i113 1
+R4
+R5
+R6
+ntb_@opcode_@decoder

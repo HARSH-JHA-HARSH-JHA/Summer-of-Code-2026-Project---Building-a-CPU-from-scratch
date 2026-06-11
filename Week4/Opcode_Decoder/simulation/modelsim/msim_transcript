@@ -1,0 +1,49 @@
+# Reading pref.tcl
+# do Opcode_Decoder_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying E:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week4/Opcode_Decoder {E:/SoC/Week4/Opcode_Decoder/Opcode_Decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:40:36 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week4/Opcode_Decoder" E:/SoC/Week4/Opcode_Decoder/Opcode_Decoder.v 
+# -- Compiling module Opcode_Decoder
+# 
+# Top level modules:
+# 	Opcode_Decoder
+# End time: 00:40:36 on Jun 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week4/Opcode_Decoder {E:/SoC/Week4/Opcode_Decoder/tb_Opcode_Decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:40:37 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week4/Opcode_Decoder" E:/SoC/Week4/Opcode_Decoder/tb_Opcode_Decoder.v 
+# -- Compiling module tb_Opcode_Decoder
+# 
+# Top level modules:
+# 	tb_Opcode_Decoder
+# End time: 00:40:37 on Jun 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_Opcode_Decoder
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_Opcode_Decoder 
+# Start time: 00:40:38 on Jun 12,2026
+# Loading work.tb_Opcode_Decoder
+# Loading work.Opcode_Decoder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# All testcases passed.
+# End time: 00:50:27 on Jun 12,2026, Elapsed time: 0:09:49
+# Errors: 0, Warnings: 0

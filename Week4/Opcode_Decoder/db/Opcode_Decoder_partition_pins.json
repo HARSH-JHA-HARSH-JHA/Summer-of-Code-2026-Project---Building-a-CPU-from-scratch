@@ -1,0 +1,125 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "NOOP",
+					"strict" : false
+				},
+				{
+					"name" : "INPUTC",
+					"strict" : false
+				},
+				{
+					"name" : "INPUTCF",
+					"strict" : false
+				},
+				{
+					"name" : "INPUTD",
+					"strict" : false
+				},
+				{
+					"name" : "INPUTDF",
+					"strict" : false
+				},
+				{
+					"name" : "MOVE",
+					"strict" : false
+				},
+				{
+					"name" : "LOADI",
+					"strict" : false
+				},
+				{
+					"name" : "ADD",
+					"strict" : false
+				},
+				{
+					"name" : "ADDI",
+					"strict" : false
+				},
+				{
+					"name" : "SUB",
+					"strict" : false
+				},
+				{
+					"name" : "SUBI",
+					"strict" : false
+				},
+				{
+					"name" : "LOAD",
+					"strict" : false
+				},
+				{
+					"name" : "LOADF",
+					"strict" : false
+				},
+				{
+					"name" : "STORE",
+					"strict" : false
+				},
+				{
+					"name" : "STOREF",
+					"strict" : false
+				},
+				{
+					"name" : "SHIFTL",
+					"strict" : false
+				},
+				{
+					"name" : "SHIFTR",
+					"strict" : false
+				},
+				{
+					"name" : "CMP",
+					"strict" : false
+				},
+				{
+					"name" : "JUMP",
+					"strict" : false
+				},
+				{
+					"name" : "BRE",
+					"strict" : false
+				},
+				{
+					"name" : "BRNE",
+					"strict" : false
+				},
+				{
+					"name" : "BRG",
+					"strict" : false
+				},
+				{
+					"name" : "BRGE",
+					"strict" : false
+				},
+				{
+					"name" : "C[2]",
+					"strict" : false
+				},
+				{
+					"name" : "C[3]",
+					"strict" : false
+				},
+				{
+					"name" : "C[4]",
+					"strict" : false
+				},
+				{
+					"name" : "C[5]",
+					"strict" : false
+				},
+				{
+					"name" : "C[0]",
+					"strict" : false
+				},
+				{
+					"name" : "C[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

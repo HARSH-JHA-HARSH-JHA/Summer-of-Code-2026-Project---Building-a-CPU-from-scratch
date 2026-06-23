@@ -1,0 +1,152 @@
+# Reading pref.tcl
+# do cpu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying E:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week5/cpu {E:/SoC/Week5/cpu/regfile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:28:15 on Jun 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week5/cpu" E:/SoC/Week5/cpu/regfile.v 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 15:28:15 on Jun 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week5/cpu {E:/SoC/Week5/cpu/pc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:28:16 on Jun 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week5/cpu" E:/SoC/Week5/cpu/pc.v 
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# End time: 15:28:16 on Jun 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week5/cpu {E:/SoC/Week5/cpu/mux2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:28:16 on Jun 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week5/cpu" E:/SoC/Week5/cpu/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 15:28:16 on Jun 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week5/cpu {E:/SoC/Week5/cpu/flag.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:28:16 on Jun 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week5/cpu" E:/SoC/Week5/cpu/flag.v 
+# -- Compiling module flag
+# 
+# Top level modules:
+# 	flag
+# End time: 15:28:16 on Jun 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week5/cpu {E:/SoC/Week5/cpu/dmem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:28:17 on Jun 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week5/cpu" E:/SoC/Week5/cpu/dmem.v 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 15:28:17 on Jun 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week5/cpu {E:/SoC/Week5/cpu/decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:28:17 on Jun 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week5/cpu" E:/SoC/Week5/cpu/decoder.v 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 15:28:17 on Jun 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week5/cpu {E:/SoC/Week5/cpu/cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:28:18 on Jun 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week5/cpu" E:/SoC/Week5/cpu/cpu.v 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 15:28:18 on Jun 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week5/cpu {E:/SoC/Week5/cpu/control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:28:18 on Jun 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week5/cpu" E:/SoC/Week5/cpu/control.v 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 15:28:18 on Jun 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week5/cpu {E:/SoC/Week5/cpu/cmem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:28:19 on Jun 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week5/cpu" E:/SoC/Week5/cpu/cmem.v 
+# -- Compiling module cmem
+# 
+# Top level modules:
+# 	cmem
+# End time: 15:28:19 on Jun 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week5/cpu {E:/SoC/Week5/cpu/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:28:19 on Jun 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week5/cpu" E:/SoC/Week5/cpu/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 15:28:19 on Jun 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week5/cpu {E:/SoC/Week5/cpu/tb_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:28:20 on Jun 23,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week5/cpu" E:/SoC/Week5/cpu/tb_cpu.v 
+# -- Compiling module tb_cpu
+# 
+# Top level modules:
+# 	tb_cpu
+# End time: 15:28:20 on Jun 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_cpu
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_cpu 
+# Start time: 15:28:20 on Jun 23,2026
+# Loading work.tb_cpu
+# Loading work.cpu
+# Loading work.cmem
+# Loading work.decoder
+# Loading work.control
+# Loading work.alu
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.flag
+# Loading work.dmem
+# Loading work.pc
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'sw'. The port definition is at: E:/SoC/Week5/cpu/cpu.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/test File: E:/SoC/Week5/cpu/tb_cpu.v Line: 29
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# all testcases passed.
+# Break key hit
+# Break in Module decoder at E:/SoC/Week5/cpu/decoder.v line 31
+# End time: 15:36:06 on Jun 23,2026, Elapsed time: 0:07:46
+# Errors: 0, Warnings: 1

@@ -1,0 +1,164 @@
+# Reading pref.tcl
+# do multicycle_cpu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying E:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week6/multicycle_cpu {E:/SoC/Week6/multicycle_cpu/register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:45 on Jun 30,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week6/multicycle_cpu" E:/SoC/Week6/multicycle_cpu/register.v 
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# End time: 12:49:45 on Jun 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week6/multicycle_cpu {E:/SoC/Week6/multicycle_cpu/regfile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:46 on Jun 30,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week6/multicycle_cpu" E:/SoC/Week6/multicycle_cpu/regfile.v 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 12:49:46 on Jun 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week6/multicycle_cpu {E:/SoC/Week6/multicycle_cpu/pc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:46 on Jun 30,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week6/multicycle_cpu" E:/SoC/Week6/multicycle_cpu/pc.v 
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# End time: 12:49:46 on Jun 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week6/multicycle_cpu {E:/SoC/Week6/multicycle_cpu/mux2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:46 on Jun 30,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week6/multicycle_cpu" E:/SoC/Week6/multicycle_cpu/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 12:49:46 on Jun 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week6/multicycle_cpu {E:/SoC/Week6/multicycle_cpu/multicycle_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:47 on Jun 30,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week6/multicycle_cpu" E:/SoC/Week6/multicycle_cpu/multicycle_cpu.v 
+# -- Compiling module multicycle_cpu
+# 
+# Top level modules:
+# 	multicycle_cpu
+# End time: 12:49:47 on Jun 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week6/multicycle_cpu {E:/SoC/Week6/multicycle_cpu/flag.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:47 on Jun 30,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week6/multicycle_cpu" E:/SoC/Week6/multicycle_cpu/flag.v 
+# -- Compiling module flag
+# 
+# Top level modules:
+# 	flag
+# End time: 12:49:47 on Jun 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week6/multicycle_cpu {E:/SoC/Week6/multicycle_cpu/dmem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:47 on Jun 30,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week6/multicycle_cpu" E:/SoC/Week6/multicycle_cpu/dmem.v 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 12:49:47 on Jun 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week6/multicycle_cpu {E:/SoC/Week6/multicycle_cpu/decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:48 on Jun 30,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week6/multicycle_cpu" E:/SoC/Week6/multicycle_cpu/decoder.v 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 12:49:48 on Jun 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week6/multicycle_cpu {E:/SoC/Week6/multicycle_cpu/control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:48 on Jun 30,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week6/multicycle_cpu" E:/SoC/Week6/multicycle_cpu/control.v 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 12:49:48 on Jun 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week6/multicycle_cpu {E:/SoC/Week6/multicycle_cpu/cmem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:48 on Jun 30,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week6/multicycle_cpu" E:/SoC/Week6/multicycle_cpu/cmem.v 
+# -- Compiling module cmem
+# 
+# Top level modules:
+# 	cmem
+# End time: 12:49:48 on Jun 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week6/multicycle_cpu {E:/SoC/Week6/multicycle_cpu/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:49 on Jun 30,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week6/multicycle_cpu" E:/SoC/Week6/multicycle_cpu/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 12:49:49 on Jun 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/SoC/Week6/multicycle_cpu {E:/SoC/Week6/multicycle_cpu/tb_multicycle_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:49 on Jun 30,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/SoC/Week6/multicycle_cpu" E:/SoC/Week6/multicycle_cpu/tb_multicycle_cpu.v 
+# -- Compiling module tb_multicycle_cpu
+# 
+# Top level modules:
+# 	tb_multicycle_cpu
+# End time: 12:49:49 on Jun 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_multicycle_cpu
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_multicycle_cpu 
+# Start time: 12:49:50 on Jun 30,2026
+# Loading work.tb_multicycle_cpu
+# Loading work.multicycle_cpu
+# Loading work.cmem
+# Loading work.register
+# Loading work.decoder
+# Loading work.control
+# Loading work.alu
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.flag
+# Loading work.dmem
+# Loading work.pc
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'sw'. The port definition is at: E:/SoC/Week6/multicycle_cpu/multicycle_cpu.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_multicycle_cpu/test File: E:/SoC/Week6/multicycle_cpu/tb_multicycle_cpu.v Line: 42
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# array sorted
+# WARNING: No extended dataflow license exists
+# Break key hit
+# Break in Module cmem at E:/SoC/Week6/multicycle_cpu/cmem.v line 10
+# End time: 13:16:29 on Jun 30,2026, Elapsed time: 0:26:39
+# Errors: 0, Warnings: 1

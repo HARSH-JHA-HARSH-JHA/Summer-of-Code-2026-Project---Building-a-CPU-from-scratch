@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Jul 17 22:46:17 2026
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : pipelined_cpu
+Top-level Entity Name : pipelined_cpu
+Family : MAX 10
+Total logic elements : 794
+    Total combinational functions : 504
+    Dedicated logic registers : 415
+Total registers : 415
+Total pins : 663
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
